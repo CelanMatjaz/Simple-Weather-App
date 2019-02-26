@@ -1,0 +1,41 @@
+label{
+	width: 100px;
+}
+
+weather-info{
+	width: 400px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#table{
+	display: inline-block;
+	text-align: left;
+}
+
+td{
+	padding: 5px;
+}
+
+td#weather{
+	width: 100%;
+}
+
+table table{
+	border: none
+}
+
+#table>tbody>tr{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#table>tbody>tr:last-child{
+	border: none;
+}
+
+h4{
+	margin-bottom: 10px;
+}
